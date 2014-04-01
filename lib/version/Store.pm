@@ -79,4 +79,4 @@ Alternatively, you can write your own C<VERSION()> when appropriate.
 
 =head1 SEE ALSO
 
-C<use> on L<perldoc>.
+C<use> in L<perldoc>.
