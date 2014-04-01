@@ -4,6 +4,8 @@ use 5.010001;
 use strict 'vars';
 use warnings;
 
+# VERSION
+
 sub import {
     my $pkg = shift;
     my $caller = caller;
@@ -25,7 +27,9 @@ sub VERSION {
 }
 
 1;
-# ABSTRACT:
+# ABSTRACT: Get your module's minimum/required version from your users
+
+=for Pod::Coverage ^(VERSION)$
 
 =head1 SYNOPSIS
 
